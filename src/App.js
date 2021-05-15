@@ -42,7 +42,9 @@ function App() {
 
   return (
     <>
-      <header>
+      <header> 
+
+      <h1>Movie Box</h1>
         
         <form onSubmit={handleOnSubmit}>
           <input
