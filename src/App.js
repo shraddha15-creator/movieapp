@@ -11,7 +11,7 @@ function App() {
   const [movies, setMovies] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
 
-  useEffect(async () => {
+  useEffect(() => {
     getMovies(FEATURE_API)
   }, []);
 
@@ -31,9 +31,6 @@ function App() {
       
             setSearchTerm('');
     }
-
-
-
   };
 
   const handleOnChange = (e) => {
